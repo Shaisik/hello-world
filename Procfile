@@ -1,1 +1,1 @@
-web: python ShaisickBot_BotHeandlerClass.py
+web: gunicorn ShaisickBot_BotHeandlerClass:app
