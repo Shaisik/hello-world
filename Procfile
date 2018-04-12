@@ -1,2 +1,1 @@
-web: gunicorn ShaisickBot_BotHeandlerClass:app
-
+web: gunicorn ShaisickBot_BotHeandlerClass:app --log-file=-
