@@ -1,1 +1,1 @@
-web: gunicorn ShaisickBot_BotHeandlerClass:app --log-file=-
+web: gunicorn ShaisickBot_BotHeandlerClass.wsgi:application --preload --workers 1
